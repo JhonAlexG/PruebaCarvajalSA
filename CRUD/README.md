@@ -3,7 +3,7 @@
 - Uso de MySQL database
 - Uso de OMR Sequelize
 
-###Tecnologías
+### Tecnologías
 
 - Node.js: Es un entorno en tiempo de ejecución de JavaScript integrado en el motor JavaScript V8 de Chrome.
 - Express.js: Es un framework de aplicación web para Node.js.
