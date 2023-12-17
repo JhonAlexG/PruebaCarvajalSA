@@ -1,0 +1,89 @@
+.contactFormPage{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactFormContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto ;
+    width: 50%;
+    height: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #dafdff;
+    box-shadow: #200909 5px 10px 30px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    height: 50px;
+    background-color: #dafdff;
+    margin-bottom: 1rem;
+}
+
+.contactForm{
+    font-size: medium;
+    display: inline-flex;;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    margin: 10px;
+    height: auto;
+    width: 100%;
+}
+
+.formBase{
+    background-color: #dafdff;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    background-color: #dafdff;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px auto;
+    height: auto;
+    width: auto;
+}
+
+.save {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 50px;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.danger {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px 20px;
+    height: 50px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ea3b3b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
