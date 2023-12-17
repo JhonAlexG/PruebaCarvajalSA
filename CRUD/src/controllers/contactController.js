@@ -54,7 +54,7 @@ export const createContact = async (req, res) => {
         });
     } catch (error) {
         res.status(404).json({
-            message: "Contact not found",
+            message: "Failed to create contact",
         });
     }
 };
@@ -85,7 +85,7 @@ export const updateContact = async (req, res) => {
         });
     } catch (error) {
         res.status(404).json({
-            message: "Contact not found",
+            message: "Failed to update contact",
         });
     }
 };
